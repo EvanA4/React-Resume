@@ -1,0 +1,190 @@
+/* About */
+
+.aboutSet legend {
+    color: rgb(157, 255, 157);
+    user-select: none;
+    margin-left: 5vw;
+    font-size: 100px;
+    padding: 0 calc(max(1vw, 10px)) 0 calc(max(1vw, 10px));
+}
+
+.aboutSet {
+    margin: 0 calc(max(4vw, 10px)) 40vh calc(max(4vw, 10px));
+    border: 1px solid rgb(22, 141, 28);
+    background-color: black;
+    font-family: ClassicConsoleNeue;
+    box-shadow: 1px 10px 10px black;
+
+    position: relative;
+}
+
+.aboutAnchor {
+    position: absolute;
+    top: calc(min(-30vh, -180px));
+}
+
+.aboutSet p {
+    color: white;
+    font-size: calc(max(2vw, 25px));
+    padding: 0 calc(max(2vw, 30px)) 0 calc(max(2vw, 30px));
+}
+
+@media screen and (max-width: 358px) {
+    .aboutSet legend {
+        margin-left: 0;
+    }
+
+    .aboutSet {
+        border: 1px solid transparent;
+    }
+
+    .aboutSet p {
+        font-size: 21.5px;
+    }
+}
+
+/* Experience */
+
+.experienceP {
+    margin-left: 5vw;
+    margin-bottom: 50px;
+
+    font-family: ClassicConsoleNeue;
+    font-size: 100px;
+    color: rgb(135, 255, 249);
+    width: min-content;
+    user-select: none;
+
+    position: relative;
+}
+
+.experienceAnchor {
+    position: absolute;
+    top: -15vh;
+}
+
+.experienceContainer {
+    width: auto;
+    margin: 0 20vw 40vh 20vw;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    box-shadow: 1px 10px 10px black;
+
+    height: 700px;
+}
+
+.experienceContent {
+    background-color: rgb(26, 28, 32);
+    padding: calc(max(2vw, 15px));
+
+    font-family: ClassicConsoleNeue;
+    color: white;
+    font-size: calc(max(2vw, 25px));
+}
+
+.experienceContent li {
+    margin: 0;
+    color: rgb(184, 184, 184);
+}
+
+.experienceContent span {
+    font-size: calc(max(2.4vw, 45px));
+}
+
+.experienceContainer button {
+    font-family: ClassicConsoleNeue;
+    border: 1px solid rgb(22, 103, 141);
+    background-color: black;
+    color: rgb(157, 211, 255);
+    font-size: 30px;
+    min-height: 70px;
+}
+
+.experienceContainer button:hover {
+    border: 1px solid rgb(89, 165, 228);
+    background-color: rgb(5, 19, 32);
+    color: rgb(207, 232, 255);
+}
+
+.experienceContainer button:active {
+    border: 1px solid rgb(184, 223, 255);
+    background-color: rgb(12, 32, 46);
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 570px) {
+    .experienceP {
+        font-size: 17.54vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .experienceContent span {
+        font-size: calc(max(4.687vw, 30px));
+    }
+
+    .experienceContainer {
+        width: 576px;
+        margin: 0 auto 40vh auto;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .experienceContainer {
+        width: 87.806vw;
+        margin: 0 6.097vw 40vh 6.097vw;
+    }
+}
+
+/* Contact */
+
+.contact fieldset {
+    padding: 0;
+    margin: 0;
+    border: transparent;
+    border-top: 5px solid gray;
+    background-color: rgb(5, 5, 5);
+}
+
+.contact legend {
+    /* color: rgb(125, 134, 255); */
+    color: white;
+    font-size: 70px;
+    font-family: ClassicConsoleNeue;
+    user-select: none;
+    padding: 0 calc(max(2vw, 20px)) 0 calc(max(2vw, 20px));
+    margin: 0 auto 0 auto;
+}
+
+.contact p,
+.contact a {
+    font-family: ClassicConsoleNeue;
+    padding: 0 calc(max(5vw, 10px)) 0 calc(max(5vw, 10px));
+    color: rgb(189, 189, 189);
+    font-size: calc(max(2vw, 25px));
+}
+
+#github {
+    color: rgb(255, 153, 0);
+}
+
+#github:hover {
+    color: rgb(255, 200, 116);
+}
+
+#github:active {
+    color: rgb(255, 231, 195);
+}
+
+#linkedin {
+    color: rgb(0, 217, 255);
+}
+
+#linkedin:hover {
+    color: rgb(126, 236, 255);
+}
+
+#linkedin:active {
+    color: rgb(158, 240, 255);
+}

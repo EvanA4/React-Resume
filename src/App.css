@@ -1,0 +1,37 @@
+.main {
+    height: 100%;
+
+    position: relative;
+}
+
+@keyframes bodyOpen {
+    0% {
+        display: none;
+    }
+
+    100% {
+        display: block;
+    }
+}
+
+.default {
+    background-color: rgb(19, 16, 14);
+    padding-top: 35vh;
+}
+
+.projects {
+    background: rgb(19, 16, 14);
+    background: linear-gradient(0deg, rgb(3, 3, 3) 0%, rgb(19, 16, 14, 1) 100%);
+    padding-top: 35vh;
+}
+
+#opening {
+    animation: bodyOpen;
+    animation-duration: 3.7s;
+    animation-timing-function: steps(1, end);
+    animation-fill-mode: forwards;
+}
+
+#toHide {
+    display: none !important;
+}
