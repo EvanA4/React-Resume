@@ -6,7 +6,7 @@ It uses a whole lot of media queries, but it also uses libraries like `react-thr
 
 The 2D animation and 3D model were made in Blender.
 
-See it live at `evanabbott.net`!
+See it [live](https://react-resume-mocha.vercel.app)!
 
 ### TODO
 1. Slowly add miniEvans instead of adding them all at once.
